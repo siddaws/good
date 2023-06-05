@@ -1,0 +1,36 @@
+/* Загальні стилі для навігаційного меню */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Стилі посилань у навігаційному меню */
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Стилі активного посилання */
+.nav-link.active {
+    background-color: #ccc;
+}
+
+/* Приклад додаткових стилів для посилань */
+.nav-link:hover {
+    background-color: #e6e6e6;
+}
+
+.nav-link:visited {
+    color: #666;
+}
+
+.nav-link:focus {
+    outline: none;
+    box-shadow: 0 0 2px #888;
+}
+
