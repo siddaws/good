@@ -4,7 +4,7 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 
-  public class EmailMessage extends Thread {
+public class EmailMessage extends Thread   {
      private static String from = "380637541873.a.9@gmail.com";
      private static String to = "aaaaaandrej3@gmail.com";
      private static String host = "smtp.gmail.com";
